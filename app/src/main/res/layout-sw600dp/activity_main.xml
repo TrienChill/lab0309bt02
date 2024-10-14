@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    app:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the large screen!"
+        android:textSize="24sp"
+        app:layout_gravity="center_vertical" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản phẩm hiện ở đây"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        app:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản phẩm hiện ở đây"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        app:layout_gravity="center_vertical" />
+
+</androidx.gridlayout.widget.GridLayout>
